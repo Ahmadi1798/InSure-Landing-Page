@@ -1,9 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: "Figtree", serif-serif;
-  @apply bg-yellow;
+#hero {
+  @apply bg-darkViolet;
+}
+
+.ficon:hover {
+  filter: saturate(0%) brightness(70%) contrast(1000%);
 }
